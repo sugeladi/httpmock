@@ -1,0 +1,5 @@
+package: go.pkg.okcoin.com/devops/httpmock
+import:
+- package: github.com/DeanThompson/ginpprof
+- package: github.com/gin-gonic/gin
+  version: ^1.1.4

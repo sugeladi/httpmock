@@ -495,6 +495,7 @@
       <root url="file://$PROJECT_DIR$/../../../github.com/FiloSottile/gvt/.git" />
       <root url="file://$PROJECT_DIR$/../../../occall/mvoice_doc/.idea" />
       <root url="file://$PROJECT_DIR$/../../../github.com/stathat/go/.git" />
+      <root url="file://$PROJECT_DIR$/.git" />
       <root url="file://$PROJECT_DIR$/../../../go.pkg.wesai.com/p/base_lib/vendor/github.com/coreos/etcd/Godeps/_workspace" />
       <root url="file://$PROJECT_DIR$/../../../go.pkg.wesai.com/p/adapter_ticket-jinfeiying/vendor/github.com/go-ini/ini/testdata" />
       <root url="file://$PROJECT_DIR$/../../../GoglandProjects/first/.idea" />
