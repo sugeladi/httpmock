@@ -17,3 +17,5 @@ httpmock
 .idea
 *.iml
 deploy*.sh
+start.sh
+httpmock.log
