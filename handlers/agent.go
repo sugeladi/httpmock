@@ -19,3 +19,16 @@ func InitAgent(c *gin.Context) {
 	})
 	return
 }
+
+func ReportMachineInfo(c *gin.Context) {
+
+	c.JSON(http.StatusOK, gin.H{
+		"requestId": "b92572b5-fc6c-4a7d-baf9-5c14ecfde781",
+		"code":      0,
+		"msg":       "",
+		"detailMsg": "",
+		"success":   true,
+		"data":      "",
+	})
+	return
+}
