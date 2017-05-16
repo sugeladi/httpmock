@@ -8,5 +8,6 @@ import (
 func router(router *gin.Engine) {
 	mockGroup := router.Group("/v1/mock")
 	mockGroup.POST("/initAgent", handlers.InitAgent)
-	mockGroup.POST("/reportMachineInfo", handlers.ReportMachineInfo)
+	mockGroup.PUT("/reportMachineInfo", handlers.ReportMachineInfo)
+	mockGroup.PUT("/callTopic", handlers.ReportMachineInfo)
 }
