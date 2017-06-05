@@ -11,4 +11,6 @@ func router(router *gin.Engine) {
 	mockGroup.PUT("/reportMachineInfo", handlers.ReportMachineInfo)
 	mockGroup.PUT("/callExecCmd", handlers.ReportMachineInfo)
 	mockGroup.PUT("/callDeploy", handlers.ReportMachineInfo)
+	mockGroup.PUT("/monitor-files", handlers.ReportMachineInfo)
+	mockGroup.POST("/monitor-process", handlers.ReportMachineInfo)
 }
